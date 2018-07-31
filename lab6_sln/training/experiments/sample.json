@@ -1,0 +1,26 @@
+{
+    "experiment_group": "Sample Experiments 2",
+    "experiments": [
+        {
+            "dataset": "EmnistDataset",
+            "model": "CharacterModel",
+            "network": "mlp",
+            "network_args": {
+                "num_layers": 2
+            }
+        },
+        {
+            "dataset": "EmnistDataset",
+            "model": "CharacterModel",
+            "network": "mlp",
+            "network_args": {
+                "num_layers": 4
+            }
+        },
+        {
+            "dataset": "EmnistDataset",
+            "model": "CharacterModel",
+            "network": "lenet"
+        }
+    ]
+}
