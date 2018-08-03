@@ -58,9 +58,10 @@ Testing should finish quickly.
 
 ## Submitting to Gradescope
 
-Before submitting to Gradescope, commit and push your changes:
+Before submitting to Gradescope, add your trained weights, commit, and push your changes:
 
 ```sh
+git add text_recognizer
 git commit -am "my lab1 work"
 git push mine master
 ```
